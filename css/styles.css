@@ -103,6 +103,8 @@ a{
   display: flex;
   justify-content: space-between;
   padding: 40px 50px;
+  background-image: url(../img/orange-bg.jpg);
+
 
 }
 .logo{
@@ -343,6 +345,9 @@ a{
   justify-content: center;
   align-items: center;
   padding: 50px 30px;
+  width: 1400px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 .plan-title {
   font-style: normal;
@@ -408,11 +413,35 @@ a{
   font-variant: small-caps;
   color: #FFFFFF;
   mix-blend-mode: normal;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-brown:hover{
   background-color: #c74509;
+}
+
+/* Social Media  */
+.footer{
+  margin-bottom: 50px;
+}
+.media:not(:last-child) {
+  margin-right: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.media:focus{
+  outline: #0A775F dotted;
+}
+
+.f:hover{
+  color: #4267B2;
+}
+
+.t:hover{
+color: #00acee ;
+}
+
+.i:hover{
+  color: #8a3ab9;
 }
 
 
